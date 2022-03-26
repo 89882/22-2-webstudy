@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=AB, initial-scale=1.0">
+    <title>ABOUT ME MADE BY GAHYUN</title>
+</head>
+<body>
+  <dl>
+    <h1>Your Information</h1>
+    <dt>
+        간단한 설문입니다<br>
+        본인에게 해당되는 사항에 체크해주세요<br>
+        <hr>
+    </dt>
+   </dl>
+<fieldset>
+    <legend>basic</legend>
+    <ul>
+        <li>
+            <label>
+                이름:
+                <input type="text" id="text">
+            </label>
+        </li>
+        <li>
+            <label>
+                나이:
+                <input type="number" id="number">
+            </label>
+        </li>
+        <li>
+            <label>
+                생일:
+                <input type="date" id="date">
+            </label>
+        </li>
+        <li>
+            성별 :
+            <label>
+                여자
+                <input type="radio" id="woman" name="sex" value="woman">
+            </label>
+            <label>
+                남자
+                <input type="radio" id="men" name="sex" value="men">
+            </label>
+        </li>
+    </ul>
+</fieldset>
+<br>
+<fieldset>
+    <legend>work</legend>
+    <ul>
+        <li>
+            <select name="work" id="work">
+            <option value="학생">학생</option>
+            <option value="사무직">사무직</option>
+            <option value="주부">주부</option>
+            <option value="자영업자">자영업자</option>
+            <option value="기타">기타</option>
+          </select>
+        </li>
+    </ul>
+</fieldset>
+<br>
+<fieldset>
+    <legend>happiness</legend>
+    <ul>
+        <li>
+            <label>
+                <input type="range" min="0" max="10" value="0">
+            </label>
+        </li>
+    </ul>
+</fieldset>
+<br>
+<fieldset>
+    <legend>자기소개서</legend>
+    <textarea name="desc" id="desc" cols="30" rows="5"></textarea>
+  </fieldset>
+  <button type="submit"><a href="http://127.0.0.1:5500/learn_html/submit.html">제출하기</a>
+  </button>
+</body>
+</html>
